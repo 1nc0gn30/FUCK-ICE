@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Melt The Machine favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#161616" />
+      <stop offset="100%" stop-color="#7a1d2a" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd8a8" />
+      <stop offset="100%" stop-color="#efaa6f" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="104" fill="url(#bg)" />
+
+  <g transform="translate(104 72)">
+    <rect x="108" y="24" width="88" height="214" rx="38" fill="url(#skin)" stroke="#101010" stroke-width="14" />
+    <rect x="58" y="184" width="188" height="196" rx="62" fill="url(#skin)" stroke="#101010" stroke-width="14" />
+    <rect x="18" y="214" width="52" height="138" rx="25" fill="url(#skin)" stroke="#101010" stroke-width="12" />
+    <rect x="248" y="216" width="52" height="138" rx="25" fill="url(#skin)" stroke="#101010" stroke-width="12" />
+    <rect x="86" y="206" width="36" height="92" rx="16" fill="#d58c53" opacity="0.75" />
+    <rect x="190" y="206" width="36" height="92" rx="16" fill="#d58c53" opacity="0.75" />
+  </g>
+
+  <circle cx="430" cy="84" r="14" fill="#ffd64d" />
+</svg>

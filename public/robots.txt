@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meltthemachine.nealfrazier.tech/sitemap.xml
+Host: meltthemachine.nealfrazier.tech

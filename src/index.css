@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-bg-primary: #fbfbe2;
+  --color-bg-dark: #2c2c2c;
+  --color-accent-red: #591200;
+  --color-accent-orange: #ff9273;
+  --color-text-dark: #1b1d0e;
+  --color-text-light: #fbfbe2;
+
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Public Sans", sans-serif;
+  --font-label: "Work Sans", sans-serif;
+}
+
+@layer utilities {
+  .hard-shadow {
+    box-shadow: 8px 8px 0 0 #2c2c2c;
+  }
+  .hard-shadow-hover:active {
+    box-shadow: 2px 2px 0 0 #2c2c2c;
+    transform: translate(6px, 6px);
+  }
+  .hard-shadow-red {
+    box-shadow: 8px 8px 0 0 #591200;
+  }
+  .hard-shadow-red-hover:active {
+    box-shadow: 2px 2px 0 0 #591200;
+    transform: translate(6px, 6px);
+  }
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-dark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}

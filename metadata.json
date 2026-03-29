@@ -1,0 +1,5 @@
+{
+  "name": "Melt The Machine",
+  "description": "Anonymous ICE sighting reporting tool.",
+  "requestFramePermissions": ["geolocation"]
+}
